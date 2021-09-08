@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <!--Header  -->
+
+        <header class="header">
+          <h1 class="header__title">Maschera</h1>
+          <p class="header__description">protettiva ipoallergenica</p>
+        </header>
+
+        <!-- Info -->
+
+        <div class="info">
+          <div class="info__picture">
+            <img src="./src/img/info-bg.jpg" alt="" />
+          </div>
+          <div class="info__description">
+            <p class="info__description-text">
+              Prodotto in <span> Italia</span> - Garantiamo la consegna veloce!
+            </p>
+            <div class="info__description-logo">
+              <img src="./src/img/info-logo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Oreder -->
+
+        <section class="order">
+          <h3 class="order__text">
+            Protezione affidabile contro virus e batteri per tutta la famiglia!
+          </h3>
+          <form class="oreder__form" action="">
+            <input
+              class="order__input oreder__input--name"
+              type="text"
+              name="name"
+              placeholder="Il tuo nome"
+            />
+            <input
+              class="order__input oreder__input--tel"
+              type="tel"
+              name="phone"
+              placeholder="il tuo numero di telefono"
+            />
+            <p class="order__count">Disponibili: <span> 17</span> pezzi</p>
+            <button class="order__btn">ORDINARE</button>
+          </form>
+        </section>
+
+        <!-- Action -->
+
+        <div class="action">
+          <p class="action__text">
+            "Promozione: se ordini 5 o più maschere la consegna è gratuita! *
+          </p>
+        </div>
+
+        <!-- Sell Count -->
+
+        <div class="sell__count">
+          <p class="sell__count-text">
+            Più di <span> 17.840 </span> pezzi venduti nell'ultima settimana"
+          </p>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <h4 class="slider__tile">
+                Non lasciate che l'infezione penetri all'interno!
+              </h4>
+              <img class="slider__img" src="./src/img/slide.jpg" alt="#" />
+              <div class="slider__description">
+                <div class="slider__attention">
+                  <img
+                    class="slider__attention-img"
+                    src="./src/img/attention.png"
+                    alt="#"
+                  />
+                </div>
+                <p>
+                  Triplo effetto di filtraggio con un grado di protezione del
+                  99,9%
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h4 class="slider__tile">
+                Non lasciate che l'infezione penetri all'interno!
+              </h4>
+              <img class="slider__img" src="./src/img/slide.jpg" alt="#" />
+              <div class="slider__description">
+                <div class="slider__attention">
+                  <img
+                    class="slider__attention-img"
+                    src="./src/img/attention.png"
+                    alt="#"
+                  />
+                </div>
+                <p>
+                  Triplo effetto di filtraggio con un grado di protezione del
+                  99,9%
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h4 class="slider__tile">
+                Non lasciate che l'infezione penetri all'interno!
+              </h4>
+              <img class="slider__img" src="./src/img/slide.jpg" alt="#" />
+              <div class="slider__description">
+                <div class="slider__attention">
+                  <img
+                    class="slider__attention-img"
+                    src="./src/img/attention.png"
+                    alt="#"
+                  />
+                </div>
+                <p>
+                  Triplo effetto di filtraggio con un grado di protezione del
+                  99,9%
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <h4 class="slider__tile">
+                Non lasciate che l'infezione penetri all'interno!
+              </h4>
+              <img class="slider__img" src="./src/img/slide.jpg" alt="#" />
+              <div class="slider__description">
+                <div class="slider__attention">
+                  <img
+                    class="slider__attention-img"
+                    src="./src/img/attention.png"
+                    alt="#"
+                  />
+                </div>
+                <p>
+                  Triplo effetto di filtraggio con un grado di protezione del
+                  99,9%
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Attantion -->
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="source__swiper.js"></script>
+  </body>
+</html>
