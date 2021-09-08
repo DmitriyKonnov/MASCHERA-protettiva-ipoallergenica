@@ -200,9 +200,18 @@
 .swiper-slide {
   position: relative;
   background-color: #0c93a4;
-  height: 270px;
+  height: 278px;
   display: flex;
   justify-content: center;
+}
+
+.slider__title {
+  position: relative;
+  top: 16px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .slider__img {
