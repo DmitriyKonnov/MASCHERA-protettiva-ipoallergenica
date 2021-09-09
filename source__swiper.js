@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper', {
     
     pagination: {
       clickable: true,
-      renderBullet: function (index, className) {
+      renderBullet: function (className) {
         return '<span class="' + className + '">' + '<span class="' + 'swiper-pagination-bullet-active-click' + '">' +  '</span>' + '</span>';
       },
       el: '.swiper-pagination',
