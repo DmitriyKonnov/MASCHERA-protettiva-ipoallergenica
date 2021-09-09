@@ -247,3 +247,37 @@
 .slider__description p {
   width: 230px;
 }
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(229, 229, 229, 1);
+}
+
+.swiper-pagination-bullet-active-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  background-color: rgba(229, 229, 229, 1);
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  position: relative;
+  top: 4px;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active .swiper-pagination-bullet-active-click {
+  background-color: #0c93a4;
+}

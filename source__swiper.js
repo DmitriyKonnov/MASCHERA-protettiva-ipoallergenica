@@ -1,20 +1,14 @@
+const swiperPaginationActive = document.querySelector('.swiper-pagination-bullet-active');
+swiperPaginationActive
+
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     loop: true,
-  
-    // If we need pagination
+    
     pagination: {
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + '<span class="' + 'swiper-pagination-bullet-active-click' + '">' +  '</span>' + '</span>';
+      },
       el: '.swiper-pagination',
     },
-  
-    // Navigation arrows
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    // },
-  
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
   });
