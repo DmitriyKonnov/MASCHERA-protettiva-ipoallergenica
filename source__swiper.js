@@ -3,12 +3,12 @@ swiperPaginationActive
 
 const swiper = new Swiper('.swiper', {
     loop: true,
-    
     pagination: {
+      el: ".swiper-pagination",
       clickable: true,
-      renderBullet: function (className) {
-        return '<span class="' + className + '">' + '<span class="' + 'swiper-pagination-bullet-active-click' + '">' +  '</span>' + '</span>';
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + '<span class="' + 'swiper-pagination-bullet-active-click' + '">' +  '</span>' + "</span>";
       },
-      el: '.swiper-pagination',
     },
+    
   });
