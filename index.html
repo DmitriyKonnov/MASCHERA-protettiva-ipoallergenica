@@ -49,7 +49,7 @@
           <h3 class="order__text">
             Protezione affidabile contro virus e batteri per tutta la famiglia!
           </h3>
-          <form class="oreder__form" action="test.php">
+          <form class="oreder__form" action="#">
             <input
               class="order__input oreder__input--name"
               type="text"
@@ -62,8 +62,12 @@
               name="phone"
               placeholder="il tuo numero di telefono"
             />
-            <p class="order__count">Disponibili: <span> 17</span> pezzi</p>
-            <button class="order__btn">ORDINARE</button>
+            <p class="order__count">
+              Disponibili: <span id="numCount"> 17</span> pezzi
+            </p>
+            <button type="button" id="buttonCount" class="order__btn">
+              ORDINARE
+            </button>
           </form>
         </section>
 
@@ -194,5 +198,6 @@
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="source__swiper.js"></script>
+    <script src="counter.js"></script>
   </body>
 </html>
