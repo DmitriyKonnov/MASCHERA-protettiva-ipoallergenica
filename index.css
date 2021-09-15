@@ -281,3 +281,32 @@
 .swiper-pagination-bullet-active .swiper-pagination-bullet-active-click {
   background-color: #0c93a4;
 }
+
+.attantion {
+  width: 320px;
+  height: 63px;
+  background: #0c93a4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #000000;
+}
